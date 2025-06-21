@@ -1,28 +1,25 @@
 #include<iostream>
-using namespace std; 
+using namespace std;
 
-
-int main()
+int main ()
 {
      int n;
-     cout<<"Enter num of rows: ";
-     cin>>n; 
+     cout<<"Enter rows";
+     cin>>n;
 
      for(int i=1;i<=n;i++)
      {
         for(int j=1;j<=n;j++)
         {
-            cout<<"*";
+            cout<<j;
         }
         cout<<endl;
      }
-
-
 }
 
 
-// pattern
-// ****
-// ****
-// ****
-// ****
+// patterns
+// 1234
+// 1234
+// 1234
+// 1234
