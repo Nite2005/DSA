@@ -10,7 +10,18 @@ int main(){
      {
         for(int j=1;j<=n;j++)
         {
-            if(j==i || j == n+1-i)
+            // method 1
+            // if(j==i || j == n+1-i)
+            // {
+            //     cout<<"*";
+            // }
+            // else{
+            //     cout<<" ";
+            // }
+
+            // method 2
+
+            if(i==j || i+j == n+1)
             {
                 cout<<"*";
             }
@@ -18,6 +29,15 @@ int main(){
                 cout<<" ";
             }
         }
+
         cout<<endl;
      }
 }
+
+
+// // pattern
+// *   *
+//  * * 
+//   *
+//  * *
+// *   *
