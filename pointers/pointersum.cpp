@@ -27,4 +27,14 @@ int main()
     cin>>*p1;  // Taking the input of y using pointer 
 
     cout<<"sum of two number is : "<<*p1 + *p<<endl;
+
+
+
+    // wrong syntax in pointer  int *p=&x , p1=&y;
+    // correct syntax is : int *p  = &x;
+    // int *p1 = &y;
+
+    int *p2 = &x , *p3 = &y; // it is also correct 
+
+    cout<<*p2 + *p3<<endl;
 }
