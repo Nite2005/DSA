@@ -5,12 +5,14 @@ void give_last_first(int n,int *first_digit,int *last_digit)
 {
     *last_digit = n%10;
     n = n/10;
+    int digit;
     while(n>9)
     {
-        int digit = n%10;
-        *first_digit = digit;
+         digit = n%10;
+        
         n = n/10;
     }
+    *first_digit = digit;
 }
 
 
