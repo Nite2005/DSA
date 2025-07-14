@@ -14,6 +14,14 @@ void display(int arr[],int size)
     }
 }
 
+// both display1 and display working same it  prove array is a pointer on passing into function
+void display1(int *arr,int size)
+{
+    for(int i=0;i<size;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+}
 void change(int b[],int size)
 {
     b[0]=100;
@@ -30,3 +38,5 @@ void change(int b[],int size)
     display(arr,size);
 
 }
+
+// arr = &arr[0] vvi
