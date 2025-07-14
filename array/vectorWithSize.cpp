@@ -20,6 +20,10 @@ int main()
         cout<<v[i];
     }
 
+    v.at(2);
+    v.at(2)=10;
+
+    sort(v.begin(),v.end());
 
 
 
