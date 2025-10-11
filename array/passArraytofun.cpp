@@ -33,9 +33,11 @@ void change(int b[],int size)
     int arr[] = {1,2,3,4};
 
     int size = sizeof(arr)/sizeof(arr[0]);
-    display(arr,size);
-    change(arr,size);
-    display(arr,size);
+    // display(arr,size);
+    // change(arr,size);
+    // display(arr,size); 
+
+    cout<<*arr<<endl;
 
 }
 

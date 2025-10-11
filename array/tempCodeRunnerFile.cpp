@@ -1,4 +1,3 @@
-    for(int i=0;i<4;i++)
-    {
-        cout<<ptr[i]<<" ";
-    }
+    // display(arr,size);
+    // change(arr,size);
+    // display(arr,size); 
